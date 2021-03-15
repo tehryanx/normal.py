@@ -2,6 +2,10 @@
 Find unicode codepoints to use in normalisation and transformation attacks. 
 
 Search for unicode codepoints that you can use to replace characters in a given string
+
+output is in the format: 
+
+`replacement char -> char its replacing | codepoint of replacement -> codepoint of char its replacing | name : normalization format`
 ```
 $ ./normal.py -s bountyplz.xyz
 ...
